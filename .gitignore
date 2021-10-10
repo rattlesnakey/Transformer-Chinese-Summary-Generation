@@ -1,0 +1,12 @@
+/apex
+/checkpoint
+/*data
+/data*
+/fairseq
+/iwslt*
+/moses*
+/orig
+/sentence*
+/subword*
+/wandb
+/*.sh
