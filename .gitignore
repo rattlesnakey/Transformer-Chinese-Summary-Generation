@@ -9,4 +9,5 @@
 /sentence*
 /subword*
 /wandb
-/*.sh
+/models
+/file2rouge
