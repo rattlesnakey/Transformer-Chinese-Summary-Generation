@@ -5,7 +5,7 @@ ORIGIN_DATA_PREFIX=../crime_data/origin
 PREPARE_DATA_PREFIX=../crime_data/for_sentencepiece/prepare
 FINAL=../crime_data/for_sentencepiece/all_aggregate.txt
 
-for file in train dev test; do
+for file in train valid test; do
     python -u ../src/process.py --input ${ORIGIN_DATA_PREFIX}/${file}.json --output ${PREPARE_DATA_PREFIX}/${file}_aggregate.txt
     done
 
