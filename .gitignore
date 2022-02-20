@@ -1,13 +1,4 @@
-/apex
-/checkpoint
-/*data
-/data*
-/fairseq
-/iwslt*
-/moses*
-/orig
-/sentence*
-/subword*
-/wandb
+/original_work_code
+/results
 /models
-/file2rouge
+/crime_data
